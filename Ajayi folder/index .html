@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="myimage.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- logo -->
+        <div class="logo">
+          <h3><span>AB</span> Ajayi Abiodun.</h3>
+        </div>
+
+        <!-- navlinks -->
+
+        <ul class="navlinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <div>
+          <!-- toggle-theme-button -->
+          <div class="togglebuttons">
+            <button
+              type="button"
+              class="darkmode"
+              id="toggleTheme"
+              aria-label="switch to lightmode"
+            >
+              <img src="images/light-mode.png" alt="" id="themeIcon" />
+            </button>
+            <!-- <button type="button" class="lightmode" id="toggleTheme2">
+            <img src="images/light-mode.png" alt="" id="themeIcon2" />
+           </button> -->
+
+            <!-- hamburger menu -->
+            <button class="menu" id="toggleMenu">
+              <img
+                src="images/menu.png"
+                alt=""
+                width="20px"
+                height="20px"
+                id="toggleMenuImg"
+              />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="sidebar">
+        <ul class="navlinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+      <!-- home-hero-section -->
+      <section id="home" class="home-section container">
+        <div class="home-description home-content">
+          <h3 class="intro">Hello There, I am</h3>
+          <h1>Ajayi Abiodun <span>Toluwalase</span></h1>
+
+          <h3 class="job">
+            Fullstack developer and Aspiring software engineer
+          </h3>
+          <p class="home-section-job-description">
+            I am a developer learning by building projects, solving problems,
+            and turning ideas into reality. I'm currently exploring web
+            development, backend engineering, and software development.
+          </p>
+          <div class="home-button">
+            <button class="primary-btn">
+              <a href="#projects">View my projects</a>
+            </button>
+            <button class="secondary-btn">
+              <a href="resume.pdf" download>Download Resume</a>
+            </button>
+          </div>
+        </div>
+        <div class="home-decoration">
+          <span> &lt;p&gt;</span>
+          <p>Building the future,one code at a time.</p>
+          <span>&lt;/p&gt;</span>
+        </div>
+      </section>
+
+      <!-- about section -->
+
+      <section id="about" class="about-section container">
+        <h3 class="know">Get to know</h3>
+        <h2>About <span>Me</span></h2>
+        <div class="about-section-content">
+          <div class="about-image">
+            <img src="images/myimage.jpg" alt="" class="about-img" />
+          </div>
+          <div class="about-description">
+            <h3>Learning . Building . Growing</h3>
+            <p>
+              I'm an aspiring software engineer passionate about building and
+              technology useful projects. I enjoy learning about how application
+              work and improving my skills through practical experience.
+            </p>
+            <br />
+            <p>
+              My current interest include frontend development,python,backend
+              engineering and eventually artificial intelligence and embedded
+              systems.
+            </p>
+            <button class="primary-btn about-button">
+              <a href="#contact">Let's Connect</a>
+            </button>
+            <div class="about-links">
+              <div>
+                <a href="https://www.linkedin.com/in/abiodun-ajayi"
+                  ><img src="images/linkedin.jpg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/toluwalaseajayiabiodun"
+                  ><img src="images/instagram.jpg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="https://x.com/Abiodun_ajayi63"
+                  ><img src="images/twitter.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills-section -->
+
+      <section id="skills" class="skills-section container">
+        <h2>My <span>Skills</span></h2>
+
+        <div class="skills-cards">
+          <div class="skills-card">
+            <h3>HTML <img src="images/html-5.jpg" alt="" /></h3>
+            <p>
+              Using the knowledge of HTML to build the structure of websites.
+            </p>
+          </div>
+          <div class="skills-card">
+            <h3>CSS <img src="images/css-3.jpg" alt="" /></h3>
+            <p>Creating beautiful and responsive designs.</p>
+          </div>
+          <div class="skills-card">
+            <h3>Javascript <img src="images/js.jpg" alt="" /></h3>
+            <p>
+              Making use of Javascript to make the website interactive for
+              users.
+            </p>
+          </div>
+          <div class="skills-card">
+            <h3>Git & Github <img src="images/github.png" alt="" /></h3>
+            <p>Managing projects and tracking code changes.</p>
+          </div>
+          <div class="skills-card">
+            <h3>Python <img src="images/python.jpg" alt="" /></h3>
+            <p>Learning programming and backend development.</p>
+          </div>
+          <div class="skills-card">
+            <h3>C++ <img src="images/c-.jpg" alt="" /></h3>
+            <p>Exploring programming and problem-solving.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects-section -->
+      <section id="projects" class="projects-section container">
+        <h2>My <span> Projects</span></h2>
+        <h3>
+          Here are some of the projects I worked on,Building more as I progress
+          in my learning journey
+        </h3>
+        <div class="project-cards">
+          <div class="project-card">
+            <h4>Car Dealerships & Sales website</h4>
+            <p>Using HTML,CSS,and Javascript</p>
+            <div><img src="images/project 1.jpg" alt="" /></div>
+          </div>
+          <div class="project-card">
+            <h4>ABtech landing page website</h4>
+            <p>Using HTML and CSS</p>
+            <div><img src="images/project 2.jpg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact-section -->
+      <section id="contacts" class="contact-section container">
+        <h3>Let's Talk</h3>
+        <h2>Contact <span>Me</span></h2>
+        <p>
+          Have a project idea, opportunity, or just want to connect? I'd love to
+          hear from you.
+        </p>
+        <form
+          action="https://formspree.io/f/maeonakr"
+          method="post"
+          id="contactForm"
+        >
+          <div class="contact-form">
+            <label for="name">Name <span>*</span></label
+            ><br />
+            <input type="text" placeholder="Enter your Name" required /><br />
+            <label for="email">Email <span>*</span></label
+            ><br />
+            <input type="email" placeholder="Enter your email" required /><br />
+            <label for="email">Send a Message <span>*</span></label
+            ><br />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Send a message"
+              required
+            ></textarea>
+            <button type="submit" id="submitButton" class="submitButton">
+              SEND
+            </button>
+            <p id="formStatus"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy;Ajayi Abiodun Toluwalase.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
